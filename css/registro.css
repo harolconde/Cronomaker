@@ -1,0 +1,17 @@
+.main-registro{
+    height: auto;
+}
+.card-registro{
+    margin-top: 13%;
+    margin-bottom: 5%;
+}
+
+.card-registro .card-body .card-title>h1{
+    color: #2e3571;
+    font-weight: 600;
+}
+.card-registro .card-body .btn{
+    background-color: #2e3571;
+    border: 1px solid #2e3571;
+    color: #fff;
+}

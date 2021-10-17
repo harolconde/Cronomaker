@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bfc3db;
+}
+.background-home{
+    height: auto;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Main */
+.main .container-xxl{
+    max-width: 90%;
+}
+
+.main .container-xxl .section-home {
+    margin-top: 10%;
+}
+
+.main .container-xxl .section-home .card{
+    border: 0;
+    background-color: transparent;
+}
+
+.main .container-xxl .section-home .card .card-body .card-title>h1{
+    color: #2e3571;
+    font-weight: 300;
+    font-size: 4rem !important;
+}
+
+.main .container-xxl .section-home .card .card-body .card-text{
+    color: #2e3571;
+    font-weight: 300;
+}
+
+.btn-cronomaker{
+    background-color: #2e3571;
+    color: #fff;
+    font-weight: 500;
+}
+
+.modal .modal-dialog .modal-content .modal-body>h1{
+    color: #2e3571;
+    font-weight: 300;
+    font-size: 2.5rem !important;
+}
+.modal .modal-dialog .modal-content .modal-body>p{
+    /* color: #2e3571; */
+    font-weight: 300;
+    font-size: 1.2rem !important;
+}
+.modal .modal-dialog .modal-content .modal-body>h5{
+    color: #2e3571;
+    font-weight: 300;
+    font-size: 1.3rem !important;
+}
+.modal .modal-dialog .modal-content .modal-body>ul>li{
+    font-weight: 300;
+    font-size: 1.2rem !important;
+}

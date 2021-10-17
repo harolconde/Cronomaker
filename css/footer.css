@@ -1,0 +1,7 @@
+/* Footer  */
+.footer .container-xxl{
+    max-width: 90%;
+}
+.footer .container-xxl .row .col-xs-12>p{
+    color: #2e3571;
+}

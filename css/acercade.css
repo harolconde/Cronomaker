@@ -1,0 +1,19 @@
+.main .container-xxl .section-acerca-de {
+    margin-top: 10%;
+}
+
+.main .container-xxl .section-acerca-de .card{
+    border: 0;
+    background-color: transparent;
+}
+
+.main .container-xxl .section-acerca-de .card .card-body .card-title>h1{
+    color: #2e3571;
+    font-weight: 300;
+    font-size: 4rem !important;
+}
+
+.main .container-xxl .section-acerca-de .card .card-body .card-text{
+    color: #2e3571;
+    font-weight: 300;
+}

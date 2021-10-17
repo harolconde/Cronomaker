@@ -1,0 +1,121 @@
+.main-dashboard{
+    min-height: 1900px;
+    background-color: #bfc3db;
+    width: 100%;
+}
+
+.main-dashboard .col-btn-logout{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-dashboard .btn-logout{
+    background-color: #2e3571;
+    border: 1px solid #2e3571;
+    color: #fff;
+    height: 40px;
+}
+
+.main-dashboard .btn-logout:hover{
+    background-color: transparent;
+    border: 1px solid #2e3571;
+    color: #2e3571;
+    font-weight: 500;
+    height: 40px;
+}
+
+.main-dashboard .container-dashboard{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.main-dashboard .container-dashboard .container-week{
+    width: 100%;
+}
+.main-dashboard .container-dashboard .container-week .row .day-week .list-group{
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+}
+.main-dashboard .container-dashboard .container-week .row .day-week .list-group-item{
+    border: 0.25px solid #ddd;
+    cursor: pointer;
+    padding-top: 1rem;
+    text-align: center;
+    transition: background-color 0.3s linear;
+    width: calc(5 * 100%);
+}
+.main-dashboard .container-dashboard .col-panel{
+    min-height: 500px;
+}
+.main-dashboard .container-dashboard .col-panel .card{
+    min-height: 500px;
+}
+
+.menu-active{
+    background-color: #2e3571;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu-desactive{
+    background-color: #fff;
+}
+
+/* Perfil Administrador */
+.container-add-hours{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    width: 100%;
+}
+.container-add-hours .row .col-hous .container-form>form{
+    display: flex;
+    align-items: center;
+}
+.container-add-hours .row .col-hous .container-form .col-xs-12 .col-button-registerHour{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-add-hours .row .col-hous .container-form .col-xs-12 .col-button-registerHour .mb-3{
+    width: 100%;
+}
+.container-add-hours .row .col-hous .container-form .col-xs-12 .col-button-registerHour .mb-3 .btn{
+    height: 40px;
+    width: 100%;
+}
+.container-add-hours .row .col-hous .container-form .col-xs-12 .mb-3 .item-form-addHour{
+    height: 40px;
+}
+.container-hour-teacher .container-title-hour .form-control,.btnAusencia,.form-select{
+    height: 65px;
+}
+.visible-admon{
+    display: block;
+}
+.hidden-admon{
+    display: none;
+}
+.sesion-activa{
+    background-color: #fff;
+    height: auto;
+    min-height: auto;
+    padding-bottom: 90px;
+}
+.header-sesion-activa{
+    display: none;
+}
+.footer-sesion-activa{
+    background-color: #2e3571;
+    color: #fff;
+}
+.footer-sesion-activa .text-start{
+    color: #fff !important;
+}
+.color-title-dashboard{
+    color: #2e3571;
+}

@@ -1,0 +1,61 @@
+
+    <!-- Contenido del login -->
+    <div class="main main-registro" id="main-registro">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-xs-hidden col-sm-hidden col-md-2 col-lg-3 col-xl-4"></div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-4">
+                    <div class="card pt-3 pb-5 ps-5 pe-5 card-registro">
+                        <div class="card-body">
+                            <div class="card-title text-left">
+                                <h1>Registrate</h1>
+                            </div>
+                            <div class="card-text mb-3">
+                                Registrate con tu correo electronico.
+                            </div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputNombre1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleInputNombre1"
+                                        aria-describedby="emailHelp" placeholder="Nombre completo" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputDocumento1" class="form-label">Usuario</label>
+                                    <input type="number" class="form-control" id="exampleInputDocumento1"
+                                        aria-describedby="emailHelp" placeholder="Documento de identidad" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Contraseña" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputRol1" class="form-label">Rol</label>
+                                    <select class="form-select" id="select-registro" aria-label="exampleInputRol1" required>
+                                        <option selected>Selecciona un rol</option>
+                                        <option value="1">Administrador</option>
+                                        <option value="2">Cooridinador</option>
+                                        <option value="3">Profesor</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputMateria1" class="form-label">Materia dictada</label>
+                                    <input type="text" class="form-control" id="exampleInputMateria1"
+                                        aria-describedby="emailHelp" placeholder="Nombre completo" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                    <label class="form-check-label" for="exampleCheck1">Acepto los terminos</label>
+                                </div>
+                                <button type="button" id="btnRegistro"
+                                    class="btn btn-cronomaker rounded-pill ps-4 pe-4">Registrarse</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-hidden col-sm-hidden col-md-2 col-lg-3 col-xl-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/modulos/registro.js"></script>

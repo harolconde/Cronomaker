@@ -1,0 +1,60 @@
+.header{
+    display: block;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+}
+.main{
+    display: block;
+    height: calc(85vh);
+    width: 100%;
+    z-index: 2;
+    overflow-x: hidden;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+}
+.btn-login{
+    color: #2e3571;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.btn-register{
+    border: 1.5px solid #2e3571;
+    color: #2e3571;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header .nav-link {
+    color: #2e3571 !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+header .navbar-brand{
+    align-items: center;
+    border: 2px solid #2e3571;
+    display: flex;
+    width: 70px;
+    height: 67px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.btn-register:hover{
+    color: #fff;
+    background-color: #2e3571;
+}
+.btn-more-info{
+    background-color: #2e3571;
+    padding-left: 25px;
+    padding-right: 25px;
+}

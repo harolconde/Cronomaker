@@ -1,0 +1,25 @@
+.main-login{
+    height: auto;
+}
+.card-login{
+    margin-top: 15%;
+    margin-bottom: 35%;
+}
+
+.card-login .card-body .card-title>h1{
+    color: #2e3571;
+    font-weight: 600;
+}
+.card-login .card-body .btn{
+    background-color: #2e3571;
+    border: 1px solid #2e3571;
+    color: #fff;
+}
+
+#errorCamposVacios{
+    display: none;
+}
+
+.errorActive{
+    display: block;
+}
