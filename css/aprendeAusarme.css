@@ -29,7 +29,8 @@
     bottom: 0.25rem;
     color: #2e3571;
     font-weight: 500;
-    left: 5%;
+    left: 0;
+    position: relative;
     text-align: justify;
-    right: 20%;
+    right: 0;
 }

@@ -6,7 +6,7 @@
 }
 .main{
     display: block;
-    height: calc(85vh);
+    height: calc(88vh);
     width: 100%;
     z-index: 2;
     overflow-x: hidden;

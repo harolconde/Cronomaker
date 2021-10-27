@@ -339,11 +339,15 @@ export function Dashboard(usuario) {
     let addHoursToPanelTeacher = function (horario) {
         let container = document.getElementById('charge-hours-teachers');
         let seleccionado = document.getElementById('select-teacher-admon');
-        console.log(horario);
+        // if(horario.length > 8){
+        //     horario.slice(0, 7);
+        // }
+        console.log(horario.slice(0, 7));
         if (horario !== null) {
             let teachers = d.teachers;
             container.innerHTML = '';
-            horario.forEach((x, i) => {
+
+            horario.slice(0, 7).forEach((x, i) => {
                 if (usuario.rol === '2') {
                     if (x.nombreProfesor === seleccionado.value) {
                         return bindHoursTeacher(container, x, i, teachers);
